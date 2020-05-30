@@ -1,7 +1,7 @@
 _This project was an old commission and is here for archive purposes, not actively worked on_
 
 # BattleStations
-Bukkit plugin that adds a "Search and Destroy" gamemode to the game.
+Bukkit plugin that adds a "Search and Destroy" gamemode to the game.  
 Created for Spigot 1.8.8
 
 ## Dependencies

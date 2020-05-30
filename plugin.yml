@@ -1,0 +1,14 @@
+name: BattleStations
+version: 30.1_MC-1.8.8
+description: BattleStations
+author: SherRao
+
+main: tk.sherrao.bukkit.battlestations.BattleStations
+prefix: BattleStations
+database: false
+depend: [ Vault, Factions, WorldGuard, WorldEdit, WGRegionEvents ] 
+
+commands:
+    battlestation:
+        description: "BattleStations - Developed by SherRao"
+        aliases: [ bs, station, stations, battle, battles, battlestations ] 

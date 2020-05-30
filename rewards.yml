@@ -1,0 +1,21 @@
+time-between-rewards: 10
+
+rewards:
+    - "minecraft:title [player] times 20 100 20"
+    - "minecraft:title [player] title Reward"
+    - "minecraft:title [player] subtitle Reward"
+    
+boosts:
+
+    # Multiplies the final result 
+    # E.g: shield time = charge time (30m) * regular multiplier
+    regular-multiplier: 2
+
+    # Multiplies the final result while boost times are in place
+    # E.g: shield time = charge time (30m) * regular multiplier * boost multiplier
+    boost-multiplier: 2
+
+    times: 
+        - "22-23"
+        - "3-4"
+    

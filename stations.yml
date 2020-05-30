@@ -1,0 +1,50 @@
+world: "world"
+
+# The item used to claim a BattleStation, retreivable via '/bs give <player>'
+claim-item:
+    
+    amount-needed: 9
+    item: "SLIME_BALL"
+    title: "&6BattleStations Piece"
+    lore:
+        - "&bUse to claim a BattleStation!"
+
+
+core:
+
+    # Don't change unless you're debugging
+    entity: "Zombie"
+
+    block: "PRISMARINE"
+    health: 200
+    name-tag: "&b[health]&f/&c[total-health]"
+
+
+turrets:    
+    
+    # Don't change unless you're debugging
+    entity: "PigZombie"
+
+    block: "DISPENSER"
+    health: 40
+    damage: 100
+    fire-range: 5
+    name-tag: "&b[health]&f/&c[total-health]"
+    
+    # The rate of fire (in seconds)
+    fire-rate: 2
+    
+    # Are the projectiles going to be able to be shot back by players?
+    bounceable: true 
+    
+    # Should the shots be flammable?
+    flammable: true  
+    
+    
+# Times are in seconds
+healing:
+    turret-cooldown: 60
+    core-cooldown: 30
+    price-per-turret-hp-point: 20
+    price-per-core-hp-point: 100
+    

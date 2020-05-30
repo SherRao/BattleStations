@@ -1,0 +1,66 @@
+command:
+
+    no-args: ANVIL_USE
+    
+    wrong-usage: ANVIL_USE
+    
+    no-perms: ANVIL_USE
+
+    save:
+        success: ANVIL_USE
+        failure: ANVIL_USE
+
+    reload:
+        success: ANVIL_USE
+        failure: ANVIL_USE
+
+    item:
+        no-player-specified: ANVIL_USE
+        invalid-player-specified: ANVIL_USE
+        give: ANVIL_USE
+        receive: ANVIL_USE
+    
+    
+claiming:
+
+    success: ANVIL_USE
+    failure: ANVIL_USE
+    broadcast: ANVIL_USE
+    need-faction: ANVIL_USE
+    already-have-station: ANVIL_USE
+    tried-claiming: "ANVIL_USE"
+    already-claimed: "ANVIL_USE"
+
+destroy:
+    
+    to-player: ANVIL_USE
+    broadcast: ANVIL_USE
+
+
+healing:
+
+    turret-success: ANVIL_USE
+    turret-failure: ANVIL_USE
+    turret-cooldown: ANVIL_USE
+    core-success: ANVIL_USE
+    core-failure: ANVIL_USE  
+    core-cooldown: ANVIL_USE
+    
+shield:
+
+    down: ANVIL_USE 
+    up: ANVIL_USE  
+    
+    bc-down: ANVIL_USE
+    bc-up: ANVIL_USE
+
+    trying-to-enter: ANVIL_USE
+    
+    add-time:
+    
+        no-station-specified: ANVIL_USE
+        no-time-specified: ANVIL_USE
+        invalid-station-specified: ANVIL_USE
+        invalid-time-specified: ANVIL_USE
+        success: ANVIL_USE
+    

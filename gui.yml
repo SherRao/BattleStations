@@ -1,0 +1,153 @@
+claiming-gui:
+
+    title: "&6Claim this Battle Station!"
+    rows: 3
+    items:
+        background: 
+            item: "THIN_GLASS"
+            title: ""
+            lore: []
+        
+        button: 
+            item: "SLIME_BLOCK"
+            slot: 13
+            title: "&bClaim this Battle Station!"
+            lore: 
+                - "&aClick this to see if you have the required parts!"
+
+            
+friendly-gui:
+
+    title: "&6&o[faction]'s &6BattleStation"
+    rows: 3
+    items:
+        background: 
+            item: "THIN_GLASS"
+            title: ""
+            lore: [] 
+        
+        
+        core:
+            slot: 13
+            full-health:
+                item: "GOLD_BLOCK"
+                title: "&bCore"
+                lore:
+                    - "&aFully Healed!"
+    
+            heal:
+                item: "GOLD_ORE"
+                title: "&cCore"
+                lore:
+                    - "&cHealth: &o[core-health]/[core-max-health]"
+    
+    
+        turrets:
+            slot: 12
+            full-health:
+                item: "DISPENSER"
+                title: "&bTurrets"
+                lore: 
+                    - "&aAll turrets alive!"  
+    
+            heal:
+                item: "DROPPER"
+                title: "&cTurrets"
+                lore: 
+                    - "&cTurrets: &o[turrets-health]/[turrets-max-health]"  
+                    
+                    
+        shield:
+            slot: 14
+            up:
+                item: "PRISMARINE"
+                title: "&bShield - Online"
+                lore: 
+                    - "&a[shield-time] minutes left till empty!"  
+    
+            down:
+                item: "BEACON"
+                title: "&cShield - Offline"
+                lore: 
+                    - "&c[charge-time] minutes left till fully charged!"  
+                    
+                    
+shield-gui:
+
+    title: "&6&o[faction]'s Shield"
+    rows: 4
+    items:
+        background: 
+            item: "THIN_GLASS"
+            title: ""
+            lore: []
+            
+        half:
+            slot: 12
+            up:
+                item: "TRAP_DOOR"
+                title: "&aTurn Shield Online &6&o[30 Minutes]"
+                lore: 
+                    - "&f&oTurns the shield on for 30 minutes"
+                
+            down: 
+                item: "BARRIER"
+                title: "&cShield Offline &6&o[30 Minutes]"
+                lore: 
+                    - "&e&oTurns the shield off for 30 minutes, recharging for 1 hours-worth of shieldtime!"
+                
+        one:
+            slot: 13
+            up:
+                item: "IRON_TRAPDOOR"
+                title: "&aShield Online &6&o[1 Hour]"
+                lore: 
+                    - "&f&oTurns the shield on for 1 hour"
+                
+            down: 
+                item: "BARRIER"
+                title: "&cShield Offline &6&o[1 Hour]"
+                lore: 
+                    - "&e&oTurns the shield off for 1 hour, recharging for 2 hours-worth of shieldtime!"
+                
+        two:
+            slot: 14
+            up:
+                item: "IRON_TRAPDOOR"
+                title: "&aShield Online &6&o[2 Hours]"
+                lore: 
+                    - "&f&oTurns the shield on for 2 hours"
+                
+            down: 
+                item: "BARRIER"
+                title: "&cShield Offline &6&o[2 Hours]"
+                lore: 
+                    - "&e&oTurns the shield off for 2 hours, recharging for 4 hours-worth of shieldtime!"
+                
+        three:
+            slot: 21
+            up:
+                item: "IRON_TRAPDOOR"
+                title: "&aShield Online &6&o[3 Hours]"
+                lore: 
+                    - "&f&oTurns the shield on for 3 hours"
+                
+            down: 
+                item: "BARRIER"
+                title: "&cShield Offline &6&o[3 Hours]"
+                lore: 
+                    - "&e&oTurns the shield off for 3 hours, recharging for 6 hours-worth of shieldtime!"
+                
+        six:
+            slot: 23
+            up:
+                item: "IRON_TRAPDOOR"
+                title: "&aShield Online &6&o[6 Hours]"
+                lore: 
+                    - "&f&oTurns the shield on for 6 hours"
+                
+            down: 
+                item: "BARRIER"
+                title: "&cShield Offline &6&o[6 Hours]"
+                lore: 
+                    - "&e&oTurns the shield off for 6 hours, recharging for 12 hours-worth of shieldtime!"

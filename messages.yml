@@ -1,0 +1,67 @@
+command:
+
+    no-args: "&cWrong! Try &6&o'/[cmd] reload' &cor &6&o'/[cmd] item <player>'"
+    
+    wrong-usage: "&cWrong! Try &6&o'/[cmd] reload' &cor &6&o'/[cmd] item <player>'"
+    
+    no-perms: "&cSorry! You don't have permission to do that!"
+
+    save:
+        success: "&aYou have successfully saved all BattleStations data to disk!"
+        failure: "&CAn error occured while saving BattleStations! Check the console..."
+
+    reload:
+        success: "&aYou have successfully loaded BattleStations!"
+        failure: "&cn error occured whilst reloading BattleStations! Check the console..."
+
+        
+    item:
+        no-player-specified: "&cYou haven't specified a player!"
+        invalid-player-specified: "&6&o[input] &cisn't a valid player!"
+        give: "&aYou have given &6&o[player] &a a BattleStation construction piece!"
+        receive: "&aYou have receieved a BattleStation construction piece!"
+    
+    
+claiming:
+
+    success: "&aYou have successfully claimed the BattleStation!"
+    failure: "&cYou don't have enough parts to claim this BattleStation!"
+    broadcast: "&6&o[player] &bhas claimed a BattleStation for their faction: &6&o[faction]"
+    need-faction: "&cYou need a faction to claim a BattleStation!"
+    already-have-station: "&cYou're faction already has a BattleStation claimed!"
+    tried-claiming: "&cSomebody tried to claim your BattleStation!"
+    already-claimed: "&cThis BattleStation is already claimed!"
+
+destroy:
+    
+    to-player: "&aYou have destroyed &6&o[faction]'s &afaction!"
+    broadcast: "&6&o[player] &bhas destroyed &6&o[faction]'s &bFaction!"
+
+
+healing:
+
+    turret-success: "&aYou have successfully healed your turrets with &6&o[health-gained] &afor &6&o$[cost]!"
+    turret-failure: "&cYou need &6&o$[cost] &cto heal all turrets!"
+    turret-cooldown: "&cYou can't heal the turret yet!"
+    core-success: "&aYou have successfully healed your core with &6&o[health-gained] &afor &6&o$[cost]!"
+    core-failure: "&cYou need &6&o$[cost] &cto heal your core!"  
+    core-cooldown: "&cYou can't heal the core yet!"
+    
+shield:
+
+    down: "&cYour BattleStation shield has gone down! Charging for [charge-time] minutes!" 
+    up: "&aYour BatteStation shield has gone up for [shield-time] minutes!"  
+    
+    bc-down: "&6&o[faction]&b's BattleStation's shields just went down for [charge-time] minutes!"
+    bc-up: "&6&o[faction]&b's BattleStation's shields just went up for [shield-time] minutes!"
+
+    trying-to-enter: "&6&o[faction]'s &cBattleStation shield is up! Get out!"
+    
+    add-time:
+    
+        no-station-specified: "&cYou haven't specified a station! Usage: &6&o'/[alias] addtime <station> <time>"
+        no-time-specified: "&cYou haven't specified a station! Usage: &6&o'/[alias] addtime <station> <time>"
+        invalid-station-specified: "&cThat BattleStation doesn't exist, or it isn't a claimed BattleStation!"
+        invalid-time-specified: "&cThat isn't a valid amount of time!"
+        success: "&aYou have successfully give &6&o[station] [time] &aseconds of shield time!"
+    

@@ -12,3 +12,6 @@ Created for Spigot 1.8.8
 - FactionsUUID: _https://www.spigotmc.org/resources/factionsuuid.1035/_
 - WorldGuardRegionEvents: _https://www.spigotmc.org/resources/wgregionevents-continued.15946/_
 - Apache Commons: _https://commons.apache.org/_
+- Google Guava: _https://github.com/google/guava_
+- Google Gson: _https://github.com/google/gson_
+- SnakeYAML: _https://bitbucket.org/asomov/snakeyaml_
